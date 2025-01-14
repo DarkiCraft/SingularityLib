@@ -34,6 +34,11 @@ class Matrix {
   Matrix(const std::initializer_list<T>& list)
     requires(RowsAtCompileTime == 1 || ColsAtCompileTime == 1)
   {
+    if (list.size() != RowsAtCompileTime * ColsAtCompileTime) {
+      throw std::invalid_argument(
+          "Sglty::Matrix: Number of elements MUST equal DimsAtCompileTime = " +
+          std::to_string(Dims()));
+    }
     std::copy(list.begin(), list.end(), data_.begin());
   }
 
