@@ -1,4 +1,4 @@
-Just a small Linear Algebra Header-Only Template Library I am making in my free time to pract C++ MetaProgramming.
+Just a small Linear Algebra Header-Only Template Library I am making in my free time to practice C++ Metaprogramming.
 
 Written and tested with C++23.
 
