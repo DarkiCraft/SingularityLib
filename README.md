@@ -1,10 +1,7 @@
-Just a small Linear Algebra Header-Only Template Library I am making in my free time to practice C++ Metaprogramming.
-
-Written and tested with C++23.
-
+Just a small Linear Algebra Header-Only Template Library I am making in my free time to learn C++ Metaprogramming.
 All help and suggestions will be appreciated!
 
-Example main usage:
+Example usage:
 
 ```cpp
 #include "Singularity/Matrix.hpp"
@@ -17,4 +14,12 @@ int main() {
 
   m.Print();
 }
+
+// main.cpp
 ```
+To compile and run:
+
+`g++ -std=c++23 main.cpp -o main`
+`./main`
+
+Written and tested in C++23
